@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Enter subnet:"
+read subnet
+
+echo "Enter port:"
+read port
+
+nmap -p $port -sT $subnet -oG res.txt
+cat res.txt |grep open >result.txt
+
+cat result
