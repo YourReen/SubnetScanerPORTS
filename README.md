@@ -1,7 +1,7 @@
 # SubnetScanerPORTS
 This script automates scan ports with application nMap
 
-This programm only for Linux!
+This programm only for bash!
 Steps:
 1) Open in terminal
 2) Enter subnet
